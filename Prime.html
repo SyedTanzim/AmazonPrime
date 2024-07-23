@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Prime-main.css">
+    <link rel="stylesheet" href="Prime-nav.css">
+    <link rel="stylesheet" href="Prime-footer.css">
+    <link rel="stylesheet" href="mediaq.css">
+
+    <style>
+        @import url(https://db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember+Regular);
+</style>
+
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 70px;
+    width: 100%;
+
+    background-color: #00050D;
+}
+
+.elements{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    list-style: none;
+
+    font-family: "Amazon Ember Regular";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+.logoimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    right: 65px;
+}
+
+.tags{
+    color: #AAAAAA;
+}
+
+.tagsl{
+    position: relative;
+    right: 50px;
+}
+
+.tagsr{
+    position: relative;
+    left: 10px;
+}
+
+.tagshover{
+    padding: 10px;
+}
+
+.tagshover {
+    transition: background-color 0.2s ease-in-out , transform 0.1s ease-in-out , color 0.2s ease-in-out;
+}
+
+.tagshover:hover {
+    cursor:pointer;
+    color: white;
+    transform: scale(1.01);
+    background-color: #191E25;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.bgImg{
+
+    height: 70vh;
+    width: 100vw;
+    overflow: hidden;
+
+    background-image: url(Images/Mirzapur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+
+    height: 70vh;
+    width: 45vw;
+}
+
+.text1{
+    color: white;
+}
+
+.texthead1{
+    position: relative;
+    left: 40px;
+    top: 45px;
+
+    font-family: "Amazon Ember Regular";
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 44.8px;
+}
+
+.textpara1{
+    position: relative;
+    left: 47px;
+    top: 70px;
+
+    font-family: "Amazon Ember Regular";
+    font-size: 19.8px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 25.6px;
+
+}
+
+.joinow-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 47px;
+    top: 115px;
+    height: 49px;
+    width: 281px;
+    color: white;
+    background-color: #0F79AF;
+    border: 1px solid #0F79AF;
+    border-radius: 5px;
+    font-family: "Amazon Ember Regular";
+    font-size: 15.8px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 20.6px;
+    padding: 5px;
+    text-decoration: none; 
+}
+
+.joinow-link:hover {
+    cursor: pointer;
+}
+
+.pandaimg{
+    height: 70vh;
+    width: 100%;
+
+    background-image: url(Images/Panda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box2{
+
+    height: 60vh;
+    width: 45vw;
+}
+
+.text2{
+    color: white;
+}
+
+.texthead2{
+    position: relative;
+    left: 40px;
+    top: 45px;
+
+    font-family: "Amazon Ember Regular";
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 44.8px;
+}
+
+.textpara2{
+    position: relative;
+    left: 47px;
+    top: 70px;
+
+    font-family: "Amazon Ember Regular";
+    font-size: 19.8px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 25.6px;
+
+}
+
+.box3{
+    display: inline-flex;
+    height: 91vh;
+    width: 100%;
+}
+
+.box3-1{
+    display: inline-block;
+    margin: 50px;
+    margin-top: 15px;
+    height: 80vh;
+    width: 40vw;
+}
+
+.text3{
+    color: black;
+}
+
+.texthead3{
+    position: relative;
+    left: 40px;
+    top: 45px;
+
+    font-family: "Amazon Ember Regular";
+    font-size: 44px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 49.8px;
+}
+
+.textpara3{
+    position: relative;
+    left: 47px;
+    top: 70px;
+
+    font-family: "Amazon Ember Regular";
+    font-size: 22.5px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 28.6px;
+}
+
+.box3-2{
+        display: grid;
+        justify-content: space-between;
+
+        position: relative;
+        right: 10px;
+
+        column-gap: 6px;
+
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
+        margin: 50px;
+        margin-top: 15px;
+
+        height: 640px;
+        width: 677px;
+}
+
+.channelimg {
+    transition: transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+.channelimg:hover {
+    cursor:pointer;
+    transform: scale(1.03);
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+.rentnow-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 47px;
+    top: 115px;
+    height: 49px;
+    width: 281px;
+    color: white;
+    background-color: #0F79AF;
+    border: 1px solid #0F79AF;
+    border-radius: 5px;
+    font-family: "Amazon Ember Regular";
+    font-size: 15.8px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 20.6px;
+    padding: 5px;
+    text-decoration: none; 
+}
+
+.rentnow-link:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 430px) and (min-width: 375px)  {
+
+    .bgImg{
+
+        height: 70vh;
+        width: 932px;
+    
+        background-image: url(Images/Mirzapur.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.foot{
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #222222;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+
+
+}
+
+.footimg{
+    justify-self: center;
+    align-self: last baseline;
+
+    grid-row: 1/2;
+    grid-column: 1;
+}
+
+.text-foot1{
+    font-family: "Amazon Ember Regular";
+    color: #79B8F3;
+    justify-self: center;
+    align-self: center;
+}
+
+.text-foot2{
+    font-family: "Amazon Ember Regular";
+    color: #8197A4;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+
+</style>
+
+
+    <title>Prime</title>
+</head>
+<body>
+
+    <nav class="navBar">
+        <ul class="elements">
+            <li class="tags logoimg"><img src="Images/Logo-min.png" alt="Prime Video" height="19px" width="105px"></li>
+            <li class="tags tagshover tagsl">Home</li>
+            <li class="tags tagshover tagsl">Store</li>
+            <li class="tags tagshover tagsl">Live TV</li>
+            <li class="tags tagshover tagsl">Categories</li>
+            <li class="tags tagshover tagsr">Subscribe Now</li>
+            <li class="tags tagshover tagsr">EN</li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="bgImg">
+            <div class="box">
+                <div class="text1 texthead1">
+                    Welcome to Prime Video
+                </div>
+                
+                <div class="text1 textpara1">
+                    Join Prime to watch the latest movies, TV shows and award-winning Amazon Originals
+                </div>
+
+                <a href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Feu.primevideo.com%2Fregion%2Feu%2Fauth%2Freturn%2Fref%3Dav_auth_ap%3F_t%3Dsgw6C8T3DHZyGiGWKraivpVUz774F55f41TXtMlAe3OICAAAAAQAAAABmkBzacmF3AAAAAPgWC9WfHH8iB-olH_E9xQ%26location%3D%2Fregion%2Feu%2F%3Fref_%253Datv_auth_pre&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&accountStatusPolicy=P1&openid.assoc_handle=amzn_prime_video_sso_in&openid.mode=checkid_setup&countryCode=IN&siteState=260-6706345-5674634&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" target="_blank" class="joinow-link">
+                    Sign in to join Prime
+                </a>
+            </div>
+        </div>
+
+        <div class="pandaimg">
+            <div class="box2">
+                <div class="text2 texthead2">
+                    Movie rentals on Prime Video
+                </div>
+                
+                <div class="text2 textpara2">
+                    Early Access to new movies, before digital subscription
+                </div>
+
+                <a href="https://www.primevideo.com/storefront/ref=atv_hm_hom_c_9zZ8D2_1_2?merchId=RentBuy&ie=UTF8" target="_blank" class="rentnow-link">Rent Now</a>
+            </div>
+        </div>
+
+        <div class="Lastimg">
+            <div class="box3">
+                <div class="box3-1">
+                    <div class="text3 texthead3">
+                        Your favorite channels all in one place
+                    </div>
+
+                    <div class="text3 textpara3">
+                        With Prime Video Channels, find shows and movies from your favorite channels all in one place. Enjoy with an add-on subscription to Channels of your choice
+                    </div>
+                </div>
+
+                <div class="box3-2">
+                    <a href="https://www.primevideo.com/gp/video/offers?benefitId=lionsgateplayin" target="_blank" > 
+                        <img src="Images/1.jpg" alt="Amazon Prime" class="chanimg1 channelimg" height="152px" width="222px">
+                    </a>
+
+                    <a href="https://www.primevideo.com/gp/video/offers?benefitId=discoveryplusin" target="_blank" >
+                        <img src="Images/2.jpg" alt="Amazon Prime" class="chanimg2 channelimg" height="152px" width="222px">
+                    </a>
+
+                    <a href="https://www.primevideo.com/gp/video/offers?benefitId=bbcplayerin" target="_blank" >
+                    <img src="Images/3.png" alt="Amazon Prime" class="chanimg3 channelimg" height="152px" width="222px">
+                    </a>
+
+                    <a href="https://www.primevideo.com/gp/video/offers?benefitId=manoramamaxin" target="_blank" >
+                    <img src="Images/4.jpg" alt="Amazon Prime" class="chanimg4 channelimg" height="152px" width="222px">
+                    </a>
+
+                    <a href="https://www.primevideo.com/gp/video/offers?benefitId=hoichoiin" target="_blank" >
+                    <img src="Images/5.jpg" alt="Amazon Prime" class="chanimg5 channelimg" height="152px" width="222px">
+                    </a>
+
+                    <a href="https://www.primevideo.com/gp/video/offers?benefitId=chaupalin" target="_blank" >
+                        <img src="Images/6.png" alt="Amazon Prime" class="chanimg6 channelimg" height="152px" width="222px">
+                    </a>
+
+                    <a href="https://www.primevideo.com/gp/video/offers?benefitId=animetimesin" target="_blank" >
+                        <img src="Images/7.jpg" alt="Amazon Prime" class="chanimg7 channelimg" height="152px" width="222px">
+                    </a>
+
+                    <a href="https://www.primevideo.com/gp/video/offers?benefitId=sonypicturesin" target="_blank" >
+                        <img src="Images/8.png" alt="Amazon Prime" class="chanimg8 channelimg" height="152px" width="222px">
+                    </a>
+
+                    <a href="https://www.primevideo.com/gp/video/offers?benefitId=mgmin" target="_blank" >
+                        <img src="Images/9.png" alt="Amazon Prime" class="chanimg9 channelimg" height="152px" width="222px">
+                    </a>
+
+                    <a href="https://www.primevideo.com/gp/video/offers?benefitId=vrottin" target="_blank" >
+                        <img src="Images/10.png" alt="Amazon Prime" class="chanimg10 channelimg" height="152px" width="222px">
+                    </a>
+
+                    <a href="https://www.primevideo.com/gp/video/offers?benefitId=erosnowin" target="_blank" >
+                        <img src="Images/11.jpg" alt="Amazon Prime" class="chanimg11 channelimg" height="152px" width="222px">
+                    </a>
+
+                    <a href="https://www.primevideo.com/gp/video/offers?benefitId=stingrayin" target="_blank" >
+                        <img src="Images/12.png" alt="Amazon Prime" class="chanimg12 channelimg" height="152px" width="222px">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="foot">
+            <img src="Images/web_footer_logo._CB462908456_.png" alt="" class="footimg">
+            <div class="text-foot1">Terms and Privacy Notice Send us feedback Help</div>
+            <div class="text-foot2">© 1996-2024, Amazon.com, Inc. or its affiliates</div>
+        </div>
+    </footer>
+    
+</body>
+</html>
